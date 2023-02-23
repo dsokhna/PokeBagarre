@@ -38,7 +38,7 @@ public class Bagarre {
   private boolean estVide(String nomPokemon) {
     return nomPokemon == null || nomPokemon.trim().isEmpty();
   }
-
+ 
   private static Pokemon determinerVainqueur(Pokemon premierPokemon, Pokemon secondPokemon) {
     return premierPokemon.estVainqueurContre(secondPokemon) ? premierPokemon : secondPokemon;
   }
